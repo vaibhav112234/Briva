@@ -306,8 +306,6 @@ export default function Navbar() {
       </Dialog>
 
       <header className="relative bg-white">
-        
-
         <nav
           aria-label="Top"
           className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
@@ -333,9 +331,12 @@ export default function Navbar() {
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDqGUF1w2nJXhzq-1xILJvsgd9tpJiosBmsg&s"
                     className="h-8 w-auto"
                   /> */}
-                    <h1 className=" text-gray-700">
-                        <span className="text-yellow-600 font-bold text-4xl ">ß</span><span className="text-3xl font-semibold">RIVɅ</span>
-                    </h1>
+                  <h1 className=" text-gray-700">
+                    <span className="text-yellow-600 font-bold text-4xl ">
+                      ß
+                    </span>
+                    <span className="text-3xl font-semibold">RIVɅ</span>
+                  </h1>
                 </a>
               </div>
 
@@ -438,9 +439,9 @@ export default function Navbar() {
               </PopoverGroup>
 
               <div className="ml-auto flex items-center">
-              <input
+                <input
                   placeholder="Search for products, brands and more"
-                  className="p-1 w-sm text-sm text-gray-900 border border-gray-300 rounded-sm focus:outline-none focus:ring-gray-300 focus:border-gray-300"
+                  className="hidden sm:block p-1 lg:w-sm xl:w-sm md:w-sm text-sm text-gray-900 border border-gray-300 rounded-sm focus:outline-none focus:ring-gray-300 focus:border-gray-300"
                 />
                 <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
                   <a
@@ -462,11 +463,8 @@ export default function Navbar() {
                   <a
                     href="#"
                     className="flex items-center text-gray-700 hover:text-gray-800"
-                  >
-                   
-                  </a>
+                  ></a>
                 </div>
-
 
                 {/* Cart */}
                 <div className="ml-4 flow-root lg:ml-6">
@@ -486,6 +484,14 @@ export default function Navbar() {
           </div>
         </nav>
       </header>
+      {/* Mobile search input */}
+      <div className="sm:hidden px-4 py-2">
+        <input
+          type="text"
+          placeholder="Search for products, brands and more"
+          className="w-full p-2 border border-gray-300 rounded-full text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-300"
+        />
+      </div>
     </div>
   );
 }
