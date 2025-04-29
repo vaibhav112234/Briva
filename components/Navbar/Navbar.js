@@ -306,9 +306,7 @@ export default function Navbar() {
       </Dialog>
 
       <header className="relative bg-white">
-        <p className="flex h-10 items-center justify-center bg-indigo-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
-          Get free delivery on orders over $100
-        </p>
+        
 
         <nav
           aria-label="Top"
@@ -330,11 +328,14 @@ export default function Navbar() {
               <div className="ml-4 flex lg:ml-0">
                 <a href="#">
                   <span className="sr-only">Your Company</span>
-                  <img
+                  {/* <img
                     alt=""
-                    src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDqGUF1w2nJXhzq-1xILJvsgd9tpJiosBmsg&s"
                     className="h-8 w-auto"
-                  />
+                  /> */}
+                    <h1 className=" text-gray-700">
+                        <span className="text-yellow-600 font-bold text-4xl ">ß</span><span className="text-3xl font-semibold">RIVɅ</span>
+                    </h1>
                 </a>
               </div>
 
@@ -437,10 +438,14 @@ export default function Navbar() {
               </PopoverGroup>
 
               <div className="ml-auto flex items-center">
+              <input
+                  placeholder="Search for products, brands and more"
+                  className="p-1 w-sm text-sm text-gray-900 border border-gray-300 rounded-sm focus:outline-none focus:ring-gray-300 focus:border-gray-300"
+                />
                 <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
                   <a
                     href="#"
-                    className="text-sm font-medium text-gray-700 hover:text-gray-800"
+                    className="text-sm font-medium text-gray-700 hover:text-gray-800 ml-4"
                   >
                     Sign in
                   </a>
@@ -458,26 +463,10 @@ export default function Navbar() {
                     href="#"
                     className="flex items-center text-gray-700 hover:text-gray-800"
                   >
-                    <img
-                      alt=""
-                      src="https://tailwindcss.com/plus-assets/img/flags/flag-canada.svg"
-                      className="block h-auto w-5 shrink-0"
-                    />
-                    <span className="ml-3 block text-sm font-medium">CAD</span>
-                    <span className="sr-only">, change currency</span>
+                   
                   </a>
                 </div>
 
-                {/* Search */}
-                <div className="flex lg:ml-6">
-                  <a href="#" className="p-2 text-gray-400 hover:text-gray-500">
-                    <span className="sr-only">Search</span>
-                    <MagnifyingGlassIcon
-                      aria-hidden="true"
-                      className="size-6"
-                    />
-                  </a>
-                </div>
 
                 {/* Cart */}
                 <div className="ml-4 flow-root lg:ml-6">
