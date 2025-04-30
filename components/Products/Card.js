@@ -2,7 +2,7 @@ import React from "react";
 import { FaStar } from 'react-icons/fa';
 const Card = () => {
   return (
-    <div className="relative mt-10 mb-10 flex flex-col w-full max-w-xs overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md h-full">
+    <div className="relative mt-10 mb-10 flex flex-col w-full max-w-xs overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md h-full transform transition duration-500 hover:shadow-xl hover:scale-105">
       <a
         className="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl"
         href="#"
