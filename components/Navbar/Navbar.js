@@ -340,7 +340,7 @@ export default function Navbar() {
 
                       <PopoverPanel
                        transition
-                       className="absolute left-1/2 top-full z-50 w-[90%] max-w-5xl -translate-x-1/2 rounded-lg bg-blue-50 text-sm text-gray-700 shadow-xl ring-1 ring-gray-200 transition-all duration-300"
+                       className="absolute left-1/2 top-full z-50 w-[90%] max-w-5xl -translate-x-1/2 rounded-lg bg-blue-50 text-sm text-gray-700 shadow-xl ring-1 ring-gray-200 transition-all duration-300 z-50"
                      >
 
                         {/* Presentational element used to render the bottom shadow, if we put the shadow on the actual panel it pokes out the top, so we use this shorter element to hide the top of the shadow */}
