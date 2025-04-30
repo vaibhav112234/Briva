@@ -19,7 +19,7 @@ export default function Carousel({ slides }) {
   };
 
   return (
-    <div className="max-w-full mx-auto h-[300px] overflow-hidden ">
+    <div className="max-w-full mx-auto h-[40%] overflow-hidden ">
       <Slider {...settings}>
         {slides.map((src, i) => (
           <div key={i}>
