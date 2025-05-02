@@ -1,7 +1,7 @@
 import React from "react";
 import { FaStar } from 'react-icons/fa';
 
-const Card = () => {
+const Card_New = () => {
   return (
     <div className="group relative w-full max-w-sm overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-xl transition duration-500 hover:shadow-2xl hover:scale-105">
       
@@ -47,4 +47,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default Card_New;
