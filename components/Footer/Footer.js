@@ -24,10 +24,10 @@ const Footer = () => {
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-gray-500">Online Shopping</h2>
                   <ul className="text-gray-500 dark:text-gray-400 font-medium">
                       <li className="mb-4">
-                          <a href="https://flowbite.com/" className="hover:underline">Men</a>
+                          <a href="#" className="hover:underline">Men</a>
                       </li>
                       <li>
-                          <a href="https://tailwindcss.com/" className="hover:underline">Women</a>
+                          <a href="#" className="hover:underline">Women</a>
                       </li>
                   </ul>
               </div>
@@ -35,10 +35,10 @@ const Footer = () => {
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-gray-500">Follow us</h2>
                   <ul className="text-gray-500 dark:text-gray-400 font-medium">
                       <li className="mb-4">
-                          <a href="https://github.com/themesberg/flowbite" className="hover:underline ">Github</a>
+                          <a href="https://github.com/CHINMAYpatkar" className="hover:underline ">Github</a>
                       </li>
                       <li>
-                          <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Discord</a>
+                          <a href="#" className="hover:underline">Discord</a>
                       </li>
                   </ul>
               </div>
