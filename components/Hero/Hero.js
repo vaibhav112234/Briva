@@ -4,7 +4,7 @@ import Carousel from "./Carousel";
 function Hero() {
   const slides = ["/img1.jpg", "/img2.jpg", "/img3.jpg"];
   return (
-    <main className="w-full">
+    <main className="w-full bg-white">
       <div>
         <Carousel slides={slides} />
       </div>
